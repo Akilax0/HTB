@@ -1,0 +1,5 @@
+mysql -h ip -u root
+select database htb;
+select * from config;
+
+flag 7b4bec00d1a39e3dd4e021ec3d915da8
