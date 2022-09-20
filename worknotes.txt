@@ -9,4 +9,5 @@ sudo nmap -sVC -T4 -Pn --open -p- ip -oN ./file
 
 gobuster dir -e -u http://192.168.0.155/ -w /usr/share/wordlists/dirb/common.txt
 
+Hacktricks to search for port number and relevent attack
 

