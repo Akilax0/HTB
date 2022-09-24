@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Sat Sep 24 16:23:13 2022 as: nmap -sVC -T4 -Pn --open -p- -oN ./file http://s3.thetoppers.htb/
+Unable to split netmask from target expression: "http://s3.thetoppers.htb/"
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Sat Sep 24 16:23:13 2022 -- 0 IP addresses (0 hosts up) scanned in 0.38 seconds
